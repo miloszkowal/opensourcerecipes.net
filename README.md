@@ -9,5 +9,6 @@ Interested in contributing a recipe? Follow these steps
 1. Clone the repo
 2. Add a new **folder** in the `recipes` folder (or if you have hugo installed, run `hugo new --kind recipe-bundle recipes/name-of-your-new-recipe-here` and replace `name-of-your-new-recipe-here` with your recipe name, and replace any spaces with dashes).
 3. The folder should contain an `index.md` file with the recipe (see the code for examples) and a picture if you want (fewer pictures = less bloat)
+4. If you take a recipe from elsewhere on the internet, _please_ link back in the `index.md` file. You can do so with the `authorName`, `authorURL`, `sourceName` and `sourceURL` attributes.
 
 If you're interested in making the website better, you can also contribute PRs to improve the site itself.
